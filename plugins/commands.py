@@ -21,19 +21,20 @@ BATCH_FILES = {}
 @Client.on_message(filters.command("start") & filters.incoming & ~filters.edited)
 async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
-        buttons = [
-            [
-                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help")
-            ],
-            [
-                InlineKeyboardButton('⚡️ Main Channel ⚡️', url="https://t.me/beta_bot_updates"),
-                InlineKeyboardButton('🔰 Main Group 🔰', url="https://t.me/BETA_BOTSUPPORT")
-            ],
-            [
-                InlineKeyboardButton('⚜️ OWNER ⚜️', url="https://t.me/JP_Jeol_org"),
-                InlineKeyboardButton('💫 About', callback_data='about')
-            ],
-            ]
+        buttons = [[
+            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('✆ 𝙾𝚆𝙽𝙴𝚁 ✆', url=f'https://t.me/JP_Jeol_org'),
+            InlineKeyboardButton('〄 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 〄', url=f'https://t.me/beta_bot_updates')
+            ],[
+            InlineKeyboardButton('🔍sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ🔎', switch_inline_query_current_chat='')
+            ],[
+            InlineKeyboardButton('☞ 𝙷𝙴𝙻𝙿 ☚', callback_data='help'),
+            InlineKeyboardButton('⍟ 𝙰𝙱𝙾𝚄𝚃 ⍟', callback_data='about')
+            ],[
+            InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats'),
+            InlineKeyboardButton('ᴄʟᴏsᴇ ✗', callback_data='close_data'),
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
         await asyncio.sleep(2) # 😢 https://github.com/KCKhais/KC-Films-Bot/blob/main/plugins/p_ttishow.py#L17 😬 wait a bit, before checking.
@@ -278,7 +279,7 @@ async def bot(bot, message):
         InlineKeyboardButton("ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="commands"),
         InlineKeyboardButton("ᴇɴqᴜɪʀy", callback_data="enqury")
         ],[
-        InlineKeyboardButton("🔰 Main Group 🔰", url='https://t.me/BETA_BOTSUPPORT')
+        InlineKeyboardButton('〄 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 〄', url=f'https://t.me/beta_bot_updates')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_chat_action("typing")
@@ -293,9 +294,9 @@ async def bot(bot, message):
 @Client.on_message(filters.command("update"))
 async def update(bot, message):
     buttons = [[
-        InlineKeyboardButton("⚡️ Main Channel ⚡️", url='https://t.me/beta_bot_updates')       
+        InlineKeyboardButton('〄 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 〄', url=f'https://t.me/beta_bot_updates')
         ],[
-        InlineKeyboardButton("🔰 Main Group 🔰", url='https://t.me/BETA_BOTSUPPORT')
+        InlineKeyboardButton("〄 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 Group 〄", url='https://t.me/BETA_BOTSUPPORT')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_chat_action("typing")
@@ -308,9 +309,9 @@ async def update(bot, message):
 @Client.on_message(filters.command("cmd"))
 async def cmd(bot, message):
     buttons = [[
-        InlineKeyboardButton("⚡️ Main Channel ⚡️", url='https://t.me/beta_bot_updates')       
+        InlineKeyboardButton('〄 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 〄', url=f'https://t.me/beta_bot_updates')
         ],[
-        InlineKeyboardButton("🔰 Main Group 🔰", url='https://t.me/BETA_BOTSUPPORT')
+        InlineKeyboardButton("〄 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 Group 〄", url='https://t.me/BETA_BOTSUPPORT')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_photo(
