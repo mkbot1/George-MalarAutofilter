@@ -9,4 +9,4 @@ fi
 cd /Doctor-Strange-Autofilter
 pip3 install -U -r requirements.txt
 echo "Starting BETA Botz💫...."
-python3 bot
+python3 bot.py
