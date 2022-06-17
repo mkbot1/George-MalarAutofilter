@@ -50,12 +50,12 @@ Mʏ ɴᴀᴍᴇ ɪꜱ <a href=https://t.me/{}>{}</a>, I ᴀᴍ ᴊᴜsᴛ ᴀɴ 
 - This is an open source project. 
 
 <b>╔══ 𝘑𝘰𝘪𝘯 ★ 𝘚𝘩𝘢𝘳𝘦 ★ 𝘚𝘶𝘱𝘱𝘰𝘳𝘵 ══╗
-♻️ ᴊᴏɪɴ :- <a href=https://t.me/Mallumovies099><b>⚜️ Main Channel ⚜️</b></a>
-♻️ ᴊᴏɪɴ :- <a href=https://t.me/mallumovie099><b>🔰 Main Group 🔰</b></a>
-♻️ ᴊᴏɪɴ :- <a href=https://t.me/JP_Jeol><b>💢 OWNER 💢</b></a>
+♻️ ᴊᴏɪɴ :- <a href=https://t.me/beta_bot_updates><b>⚜️ Main Channel ⚜️</b></a>
+♻️ ᴊᴏɪɴ :- <a href=https://t.me/BETA_BOTSUPPORT><b>🔰 Main Group 🔰</b></a>
+♻️ ᴊᴏɪɴ :- <a href=https://t.me/JP_Jeol_org><b>💢 OWNER 💢</b></a>
 ╚══ 𝘑𝘰𝘪𝘯 ★ 𝘚𝘩𝘢𝘳𝘦 ★ 𝘚𝘶𝘱𝘱𝘰𝘳𝘵 ══╝</b>
 
-<b>💘 Team ➜ <a href=https://t.me/mallumovie099>💫 𝐌𝐀𝐋𝐋𝐔 𝐌𝐎𝐕𝐈𝐄𝐒 💫</a>\n✯ ━━━━━ ✧ ━━━━━ ✯</b>\n"""
+<b>💘 Team ➜ <a href=https://t.me/beta_bot_updates>💫 𝙱𝙴𝚃𝙰 𝙱𝙾𝚃𝚉 💫</a>\n✯ ━━━━━ ✧ ━━━━━ ✯</b>\n"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
