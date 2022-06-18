@@ -42,18 +42,14 @@ class script(object):
 ➪ Joining Because of Updates of Bots and All Others are through Main Channel
 
 ➪ It is because of Copyright Issue is Very Low Compairing to Other Channels 😀"""
-    START_TXT = """Hᴇʏ {},
-Mʏ ɴᴀᴍᴇ ɪꜱ <a href=https://t.me/{}>{}</a>, I ᴀᴍ ᴊᴜsᴛ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ Aᴜᴛᴏғɪʟᴛᴇʀ Bᴏᴛ Wɪᴛʜ ᴇxᴛʀᴀ ᴄᴀᴘᴀʙɪʟɪᴛɪᴇs.Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀs ᴀᴅᴍɪɴ ᴀɴᴅ I'ʟʟ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ᴛʜᴇʀᴇ 😍
+    START_TXT = """𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>,\n 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽..."""
 
 ➪ /bot - You can use this Command, how it is Working 😀"""
     SOURCE_TXT = """<b>NOTE:</b>
-- This is an open source project. 
-
-<b>╔══ 𝘑𝘰𝘪𝘯 ★ 𝘚𝘩𝘢𝘳𝘦 ★ 𝘚𝘶𝘱𝘱𝘰𝘳𝘵 ══╗
-♻️ ᴊᴏɪɴ :- <a href=https://t.me/beta_bot_updates><b>⚜️ Main Channel ⚜️</b></a>
-♻️ ᴊᴏɪɴ :- <a href=https://t.me/BETA_BOTSUPPORT><b>🔰 Main Group 🔰</b></a>
-♻️ ᴊᴏɪɴ :- <a href=https://t.me/JP_Jeol_org><b>💢 OWNER 💢</b></a>
-╚══ 𝘑𝘰𝘪𝘯 ★ 𝘚𝘩𝘢𝘳𝘦 ★ 𝘚𝘶𝘱𝘱𝘰𝘳𝘵 ══╝</b>
+- This is a Eva Mari clone Project
+- 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴 👉 :<a href=https://github.com/Jeolpaul/George-MalarAutofilter>George-MalarAutofilter</a>
+<b>DEV:</b>
+- 𝙳𝚎𝚟 <a href=https://t.me/JP_Jeol_org>ᴊᴇᴏʟ</a>
 
 <b>💘 Team ➜ <a href=https://t.me/beta_bot_updates>💫 𝙱𝙴𝚃𝙰 𝙱𝙾𝚃𝚉 💫</a>\n✯ ━━━━━ ✧ ━━━━━ ✯</b>\n"""
 
@@ -136,10 +132,16 @@ This module only works for my admins
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
 
-    ABOUT_TXT = """► 𝐌𝐲 𝐍𝐚𝐦𝐞: {}
-► 𝐋𝐢𝐛𝐫𝐚𝐫𝐲: Pyrogram
-► 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞: MongoDB
-► 𝐒𝐞𝐫𝐯𝐞𝐫: Heroku"""
+    ABOUT_TXT = """𝙷𝙴𝚈 {}
+𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+    ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴 : {}
+<b>✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : <a href=https://t.me/JP_Jeol_org>ᴊᴇᴏʟ</a></b>
+<b>✯ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 : <a href=https://t.me/beta_bot_updates>ʙᴇᴛᴀ ᴜᴘᴅᴀᴛᴇs</a></b>
+<b>✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>
+<b>✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</b>
+<b>✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 : 𝙼𝙾𝙽𝙶𝙾-𝙳𝙱</b>
+<b>✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁 : ʜᴇʀᴏᴋᴜ</b>
+<b>✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 : 𝚅1.0.43 [𝙼𝙰𝙹𝙾𝚁]</b>"""
 
     STATUS_TXT = """📑 ғɪʟᴇs sᴀᴠᴇᴅ: <code>{}</code>
 👤 ᴜsᴇʀs: <code>{}</code>
