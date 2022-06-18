@@ -143,10 +143,10 @@ This module only works for my admins
 <b>✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁 : ʜᴇʀᴏᴋᴜ</b>
 <b>✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 : 𝚅1.0.43 [𝙼𝙰𝙹𝙾𝚁]</b>"""
 
-    STATUS_TXT = """📑 ғɪʟᴇs sᴀᴠᴇᴅ: <code>{}</code>
-👤 ᴜsᴇʀs: <code>{}</code>
-👥 ɢʀᴏᴜᴘs: <code>{}</code>
-🗂️ ᴏᴄᴄᴜᴘɪᴇᴅ: <code>{}</code> """
+    STATUS_TXT = """᚛› 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
+᚛› 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
+᚛› 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
+᚛› 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> """
  
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
