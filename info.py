@@ -32,9 +32,17 @@ auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
+# Renamer
+DOWNLOAD_DIR = os.environ.get("DOWNLOAD_DIR", "./downloads")
+LOGGER = logging
+OWNER_ID = int(os.environ.get("OWNER_ID", 5339194287))
+PRO_USERS = list(set(int(x) for x in os.environ.get("PRO_USERS", "0").split()))
+PRO_USERS.append(OWNER_ID)
+
+
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "KCFilmss")
+DATABASE_NAME = environ.get('DATABASE_NAME', "JP")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
