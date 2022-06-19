@@ -33,9 +33,9 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # Renamer
-DOWNLOAD_DIR = os.environ.get("DOWNLOAD_DIR", "./downloads")
+DOWNLOAD_DIR = environ.get("DOWNLOAD_DIR", "./downloads")
 LOGGER = logging
-OWNER_ID = int(os.environ.get("OWNER_ID", 5339194287))
+OWNER_ID = int(environ['OWNER_ID'])
 PRO_USERS = list(set(int(x) for x in os.environ.get("PRO_USERS", "0").split()))
 PRO_USERS.append(OWNER_ID)
 
