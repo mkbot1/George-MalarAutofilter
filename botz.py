@@ -46,5 +46,5 @@ class Bot(Client):
         logging.info("Bot stopped. Bye.")
 
 
-app = Bot()
+app = Botz()
 app.run()
