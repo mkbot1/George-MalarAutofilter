@@ -72,4 +72,4 @@ class Database:
         return user or None
 
 
-db = Database(Config.MONGODB_URI, "Rename-Bot")
+db = Database(Config.DATABASE_URI, "Rename-Bot")
