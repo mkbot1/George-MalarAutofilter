@@ -9,4 +9,4 @@ fi
 cd /George-Malar-Autofilter
 pip3 install -U -r requirements.txt
 echo "Starting BETA Botz💫...."
-python3 bot.py
+python3 botz.py && bot
