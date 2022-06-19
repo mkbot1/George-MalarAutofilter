@@ -347,7 +347,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                                        file_caption='' if f_caption is None else f_caption)
                 
                 buttons = [[
-                  InlineKeyboardButton('🔰 Main Group 🔰', url='https://t.me/BETA_BOTSUPPORT')
+                  InlineKeyboardButton('🔰 Main Group 🔰', url='https://t.me/CINEMAREQGROUP')
                   ]]
             except Exception as e:
                 logger.exception(e)
@@ -420,7 +420,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                                        file_size='' if size is None else size,
                                                        file_caption='' if f_caption is None else f_caption)
                 buttons = [[
-                  InlineKeyboardButton('🔰 Main Group 🔰', url='https://t.me/BETA_BOTSUPPORT')
+                  InlineKeyboardButton('🔰 Main Group 🔰', url='https://t.me/CINEMAREQGROUP')
                   ]]
             except Exception as e:
                 logger.exception(e)
@@ -440,7 +440,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('✆ 𝙾𝚆𝙽𝙴𝚁 ✆', url=f'https://t.me/JP_Jeol_org'),
+            InlineKeyboardButton('✆ 𝙶𝚁𝙾𝚄𝙿 ✆', url=f'https://t.me/CINEMAREQGROUP'),
             InlineKeyboardButton('〄 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 〄', url=f'https://t.me/beta_bot_updates')
             ],[
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ🔎', switch_inline_query_current_chat='')
@@ -707,7 +707,7 @@ async def auto_filter(client, msg, spoll=False):
         )
         btn.insert(0,
             [InlineKeyboardButton(text="⚜️ Main Channel ⚜️",url="https://t.me/beta_bot_updates"),
-             InlineKeyboardButton(text="💢 Main Group 💢",url="https://t.me/BETA_BOTSUPPORT")]
+             InlineKeyboardButton(text="💢 Main Group 💢",url="https://t.me/CINEMAREQGROUP")]
         )
         btn.insert(0,
             [InlineKeyboardButton(text="🔶 Files Channel 🔶",url="https://t.me/+AvSoIDTR1FY2Y2Y9")]
@@ -718,7 +718,7 @@ async def auto_filter(client, msg, spoll=False):
         )
         btn.insert(0,
             [InlineKeyboardButton(text="⚜️ Main Channel ⚜️",url="https://t.me/beta_bot_updates"),
-             InlineKeyboardButton(text="⭕️ MAIN Group ⭕️",url="https://t.me/BETA_BOTSUPPORT")]
+             InlineKeyboardButton(text="⭕️ MAIN Group ⭕️",url="https://t.me/CINEMAREQGROUP")]
         )
         btn.insert(0,
             [InlineKeyboardButton(text="🔶 Files Channel 🔶",url="https://t.me/+AvSoIDTR1FY2Y2Y9")]
