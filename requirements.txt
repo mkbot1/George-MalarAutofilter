@@ -10,3 +10,11 @@ imdbpy
 heroku3
 datetime
 pynewtonmath
+pyromod
+python-dotenv
+dnspython
+Pillow
+hachoir
+mutagen
+psutil
+aiofiles
