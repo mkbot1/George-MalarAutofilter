@@ -1,1 +1,1 @@
-worker: python3 botz.py && bot
+worker: python3 botz.py
