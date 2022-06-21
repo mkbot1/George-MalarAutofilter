@@ -276,8 +276,8 @@ async def report(bot, message):
             await message.reply_text("✅ Your Report Successfully Submitted to the Admins")
 
 
-@Client.on_message(filters.command("bot"))
-async def bot(bot, message):
+@Client.on_message(filters.command("help"))
+async def help(bot, message):
     buttons = [[
         InlineKeyboardButton("ᴅɪᴅɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇ", callback_data="getmovie"),
         InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ꜱᴇᴀʀᴄʜ ꜰɪʟᴇ", callback_data="searchfile")
@@ -307,7 +307,7 @@ async def update(bot, message):
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_chat_action("typing")
     await message.reply_photo(
-        photo="https://telegra.ph/file/8c74be456b8f198e7f79c.jpg",
+        photo="https://telegra.ph/file/7630fc70febb4df4c757a.jpg",
         caption=script.UPDATE_CMD.format(message.from_user.mention),
         reply_markup=reply_markup,
         parse_mode="html")
