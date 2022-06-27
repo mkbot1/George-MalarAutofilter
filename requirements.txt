@@ -19,3 +19,6 @@ mutagen
 psutil
 aiofiles
 aiohttp==3.7.4
+youtube-dl
+youtube_search
+asyncio
