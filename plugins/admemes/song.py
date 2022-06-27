@@ -25,7 +25,7 @@ def time_to_seconds(time):
     return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(':'))))
 
 
-@Client.on_message(filters.command('song') & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command('song') & ~filters.channel)
 def song(client, message):
 
     user_id = message.from_user.id 
@@ -49,7 +49,7 @@ def song(client, message):
         open(thumb_name, 'wb').write(thumb.content)
 
 
-        performer = f"[ℬℰ𝒯𝒜]" 
+        performer = f"[ᒍEOᒪ]" 
         duration = results[0]["duration"]
         url_suffix = results[0]["url_suffix"]
         views = results[0]["views"]
@@ -103,7 +103,7 @@ async def vsong(client, message: Message):
         message.chat.id, f"**𝙵𝙸𝙽𝙳𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝚅𝙸𝙳𝙴𝙾** `{urlissed}`"
     )
     if not urlissed:
-        await pablo.edit("Invalid Command Syntax Please Check help Menu To Know More!")
+        await pablo.edit("GIVE ME VALID VIDEO NAME eg:- /video Faded")
         return
 
     search = SearchVideos(f"{urlissed}", offset=1, mode="dict", max_results=1)
