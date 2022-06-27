@@ -7,7 +7,7 @@ umongo==3.0.1
 requests
 bs4
 imdbpy
-youtubesearchpython
+youtube-search-python==1.4.6
 heroku3
 datetime
 pynewtonmath
