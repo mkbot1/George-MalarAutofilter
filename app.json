@@ -16,7 +16,7 @@
       "inline"
     ],
     "website": "https://github.com/Jeolpaul/Doctor-Strange-Autofilter",
-    "repository": "https://github.com/Jeolpaul/Doctor-Strange-Autofilter",
+    "repository": "https://github.com/luna0497h/George-MalarAutofilter",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
