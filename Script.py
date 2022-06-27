@@ -52,7 +52,7 @@ NOTE : WORKS ONLY ON GROUP."""
 - This is a Eva Mari clone Project
 - 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 :<a href=https://github.com/Jeolpaul/George-MalarAutofilter>George-MalarAutofilter</a>
 <b>DEV:</b>
-- 𝙳𝚎𝚟 <a href=https://t.me/JP_Jeol_org>ᴊᴇᴏʟ</a>
+- 𝙳𝚎𝚟 <a href=https/t.me/luna0497h>LUNA</a>
 
 <b>💘 Team ➜ <a href=https://t.me/beta_bot_updates>💫 𝙱𝙴𝚃𝙰 𝙱𝙾𝚃𝚉 💫</a>\n✯ ━━━━━ ✧ ━━━━━ ✯</b>\n"""
 
