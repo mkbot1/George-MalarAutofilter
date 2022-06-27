@@ -18,3 +18,4 @@ hachoir
 mutagen
 psutil
 aiofiles
+aiohttp==3.7.4
