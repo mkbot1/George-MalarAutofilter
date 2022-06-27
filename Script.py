@@ -54,7 +54,7 @@ NOTE : WORKS ONLY ON GROUP."""
 <b>DEV:</b>
 - 𝙳𝚎𝚟 <a href=https/t.me/luna0497h>LUNA</a>
 
-<b>💘 Team ➜ <a href=https://t.me/beta_bot_updates>💫 𝙱𝙴𝚃𝙰 𝙱𝙾𝚃𝚉 💫</a>\n✯ ━━━━━ ✧ ━━━━━ ✯</b>\n"""
+<b>💘 Team ➜ <a href=https://t.me/lunamovies007>💫 LUNA 💫</a>\n✯ ━━━━━ ✧ ━━━━━ ✯</b>\n"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
