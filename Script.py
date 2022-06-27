@@ -31,6 +31,10 @@ class script(object):
 
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+  
+    MUSIC_TXT = """𝙷𝙴𝚈 𝙼𝙰𝙽!
+𝙷𝙴𝚁𝙴 𝙸𝚂 𝚈𝙾𝚄 𝙲𝙰𝙽 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝚄𝚂𝙸𝙲 𝙱𝚈 𝚃𝙷𝙴 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 /song
+NOTE : WORKS ONLY ON GROUP."""
 
     BOT_TXT = """𝐇𝐢 {},
 ➪ How To Use This Bot
