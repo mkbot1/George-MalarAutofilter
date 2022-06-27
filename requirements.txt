@@ -10,6 +10,7 @@ imdbpy
 heroku3
 datetime
 pynewtonmath
+yt_dlp
 pyromod
 python-dotenv
 dnspython
