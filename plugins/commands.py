@@ -67,7 +67,6 @@ async def start(client, message):
             parse_mode='html'
         )         
         await message.reply_chat_action("typing")
-        m=await message.reply_sticker("CAACAgUAAxkBAAP-Yrsc-Jv71_jQvYq44t71YB_JJb0AAicBAALIlGQU4j1igJFEppoeBA")
         return
     if AUTH_CHANNEL and not await is_subscribed(client, message):
         try:
