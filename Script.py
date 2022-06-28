@@ -42,7 +42,7 @@ class script(object):
 <code>/batch https://t.me/beta_updates/201 https://t.me/beta_updates/257</code>"""
  
     MUSIC_TXT = """𝙷𝙴𝚈 𝙼𝙰𝙽!
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚈𝙾𝚄 𝙲𝙰𝙽 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝚄𝚂𝙸𝙲 𝙱𝚈 𝚃𝙷𝙴 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 /song"""
+𝙷𝙴𝚁𝙴 𝙸𝚂 𝚈𝙾𝚄 𝙲𝙰𝙽 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝚄𝚂𝙸𝙲 | 𝚅𝙸𝙳𝙴𝙾 𝙱𝚈 𝚃𝙷𝙴 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 /song 𝙰𝙽𝙳 /video"""
 
     BOT_TXT = """𝐇𝐢 {},
 ➪ How To Use This Bot
