@@ -65,7 +65,7 @@
         },
         "GROUP_SUPPORT": {
            "description": "Your Group Username Without @",
-           "required": false
+           "required": true
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com.",
