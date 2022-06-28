@@ -84,11 +84,11 @@
             "required": true
         },
         "CH_FILTER": {
-            "description": "Channel ID -100xxxxxxx",
+            "description": "The Channel ID where The Bot Upload Files.",
             "required": true
         },
         "CH_LINK": {
-            "description": "Channel Link",
+            "description": "Channel Link were the Bot Upload Files.",
             "required": true
         },
         "COLLECTION_NAME": {
