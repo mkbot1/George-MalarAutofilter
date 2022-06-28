@@ -718,8 +718,8 @@ async def auto_filter(client, msg, spoll=False):
              InlineKeyboardButton(text="NEXT ⏩", callback_data=f"next_{req}_{key}_{offset}")]   
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="⚜️ Main Channel ⚜️",url="https://t.me/beta_bot_updates"),
-             InlineKeyboardButton(text="💢 Main Group 💢",url="https://t.me/CINEMAREQGROUP")]
+            [InlineKeyboardButton(text="⚜️ Main Channel ⚜️",url="https://t.me/lunamoviestore"),
+             InlineKeyboardButton(text="💢 Main Group 💢",url="https://t.me/lunamovies007")]
         )
         btn.insert(0,
             [InlineKeyboardButton(text="🔶 Files Channel 🔶",url="https://t.me/+AvSoIDTR1FY2Y2Y9")]
@@ -729,8 +729,8 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="⚜️ Main Channel ⚜️",url="https://t.me/beta_bot_updates"),
-             InlineKeyboardButton(text="⭕️ MAIN Group ⭕️",url="https://t.me/CINEMAREQGROUP")]
+            [InlineKeyboardButton(text="⚜️ Main Channel ⚜️",url="https://t.me/lunamoviestore"),
+             InlineKeyboardButton(text="⭕️ MAIN Group ⭕️",url="https://t.me/lunamovies007")]
         )
         btn.insert(0,
             [InlineKeyboardButton(text="🔶 Files Channel 🔶",url="https://t.me/otispro")]
