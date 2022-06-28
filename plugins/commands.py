@@ -67,6 +67,7 @@ async def start(client, message):
             parse_mode='html'
         )         
         await message.reply_chat_action("typing")
+        m=await message.reply_sticker("CAACAgUAAxkBAAP-Yrsc-Jv71_jQvYq44t71YB_JJb0AAicBAALIlGQU4j1igJFEppoeBA")
         return
     if AUTH_CHANNEL and not await is_subscribed(client, message):
         try:
@@ -93,8 +94,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('✆ 𝙾𝚆𝙽𝙴𝚁 ✆', url=f'https://t.me/JP_Jeol_org'),
-            InlineKeyboardButton('〄 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 〄', url=f'https://t.me/beta_bot_updates')
+            InlineKeyboardButton('✆ 𝙾𝚆𝙽𝙴𝚁 ✆', url=f'https://t.me/{OWNER_USERNAME}'),
+            InlineKeyboardButton('〄 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 〄', url=f'https://t.me/{UPDATES_CHANNEL}')
             ],[
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ🔎', switch_inline_query_current_chat='')
             ],[
@@ -286,7 +287,7 @@ async def help(bot, message):
         InlineKeyboardButton("ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="commands"),
         InlineKeyboardButton("ᴇɴqᴜɪʀy", callback_data="enqury")
         ],[
-        InlineKeyboardButton('〄 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 〄', url=f'https://t.me/beta_bot_updates')
+        InlineKeyboardButton('〄 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 〄', url=f'https://t.me/{UPDATES_CHANNEL}')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_chat_action("typing")
@@ -298,27 +299,13 @@ async def help(bot, message):
     await asyncio.sleep(50)
     await h.delete()
 
-@Client.on_message(filters.command("update"))
-async def update(bot, message):
-    buttons = [[
-        InlineKeyboardButton('〄 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 〄', url=f'https://t.me/beta_bot_updates')
-        ],[
-        InlineKeyboardButton("〄 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 Group 〄", url='https://t.me/BETA_BOTSUPPORT')
-    ]]
-    reply_markup = InlineKeyboardMarkup(buttons)
-    await message.reply_chat_action("typing")
-    await message.reply_photo(
-        photo="https://telegra.ph/file/7630fc70febb4df4c757a.jpg",
-        caption=script.UPDATE_CMD.format(message.from_user.mention),
-        reply_markup=reply_markup,
-        parse_mode="html")
 
 @Client.on_message(filters.command("cmd"))
 async def cmd(bot, message):
-    buttons = [[
-        InlineKeyboardButton('〄 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 〄', url=f'https://t.me/beta_bot_updates')
+    buttons = 
+        InlineKeyboardButton('〄 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 〄', url=f'https://t.me/{UPDATES_CHANNEL}')
         ],[
-        InlineKeyboardButton("〄 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 Group 〄", url='https://t.me/BETA_BOTSUPPORT')
+        InlineKeyboardButton("〄 Group 〄", url=f'https://t.me/{GROUP_SUPPORT}')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_photo(
