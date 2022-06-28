@@ -1,6 +1,7 @@
 {
     "name": "George Malar Bot",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
+    "logo": "https://telegra.ph/file/3e1758b8b6db39cafdf2e.jpg",
     "stack": "container",
     "keywords": [
       "telegram",
