@@ -300,20 +300,6 @@ async def help(bot, message):
     await h.delete()
 
 
-@Client.on_message(filters.command("cmd"))
-async def cmd(bot, message):
-    buttons = 
-        InlineKeyboardButton('〄 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 〄', url=f'https://t.me/{UPDATES_CHANNEL}')
-        ],[
-        InlineKeyboardButton("〄 Group 〄", url=f'https://t.me/{GROUP_SUPPORT}')
-    ]]
-    reply_markup = InlineKeyboardMarkup(buttons)
-    await message.reply_photo(
-        photo="https://telegra.ph/file/8c74be456b8f198e7f79c.jpg",
-        caption=script.START_TXT.format(message.from_user.mention),
-        reply_markup=reply_markup,
-        parse_mode="html")
-
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
            
