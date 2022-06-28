@@ -52,7 +52,7 @@ NOTE : WORKS ONLY ON GROUP."""
 - This is a Eva Mari clone Project
 - 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 :<a href=https://github.com/luna0497h/George-MalarAutofilter>George-MalarAutofilter</a>
 <b>DEV:</b>
-- 𝙳𝚎𝚟 <a href=https/t.me/luna0497h>LUNA</a>
+- 𝙳𝚎𝚟 <a href=https/t.me/luna0497h>Eric</a>
 
 <b>💘 Team ➜ <a href=https://t.me/lunamovies007>💫 LUNA 💫</a>\n✯ ━━━━━ ✧ ━━━━━ ✯</b>\n"""
 
