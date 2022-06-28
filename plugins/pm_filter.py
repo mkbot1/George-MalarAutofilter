@@ -722,7 +722,7 @@ async def auto_filter(client, msg, spoll=False):
              InlineKeyboardButton(text="💢 Main Group 💢",url="https://t.me/lunamovies007")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="🔶 Files Channel 🔶",url="https://t.me/+AvSoIDTR1FY2Y2Y9")]
+            [InlineKeyboardButton(text="🔶 Files Channel 🔶",url="https://t.me/otispro")]
         )
     else:
         btn.append(
