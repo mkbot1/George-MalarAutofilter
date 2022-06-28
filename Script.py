@@ -138,7 +138,7 @@ This module only works for my admins
     ABOUT_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴 : {}
-<b>✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : <a href=https://t.me/JP_Jeol_org>ᴊᴇᴏʟ</a></b>
+<b>✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : <a href=https://t.me/luna0497h>Eric</a></b>
 <b>✯ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 : <a href=https://t.me/lunamovies007>LUNA ᴜᴘᴅᴀᴛᴇs</a></b>
 <b>✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>
 <b>✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</b>
