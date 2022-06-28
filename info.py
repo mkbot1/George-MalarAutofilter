@@ -19,6 +19,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot Decoraters
 GROUP_SUPPORT = environ['GROUP_SUPPORT']
 UPDATES_CHANNEL = environ['UPDATES_CHANNEL']
+OWNER_USERNAME = environ['OWNER_USERNAME']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
