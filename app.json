@@ -63,12 +63,20 @@
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "description": "mongoDB URI. Get this value from https://www.mongodb.com.",
             "required": true
         },
         "DATABASE_NAME": {
-            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "description": "Name of the database in mongoDB.",
             "required": false
+        },
+        "UPDATES_CHANNEL": {
+            "description": "YOUR MOVIE CHANNEL Username Without @",
+            "required": true
+        },
+        "OWNER_USERNAME": {
+            "description": "Fill It With Your Telegram Username Without @",
+            "required": true
         },
         "CH_FILTER": {
             "description": "Channel ID -100xxxxxxx",
