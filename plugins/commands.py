@@ -66,7 +66,7 @@ async def start(client, message):
             reply_markup=reply_markup,
             parse_mode='html'
         )         
-        await message.reply_chat_action("BETA_BOTZ")
+        await message.reply_chat_action("find_location")
         return
     if AUTH_CHANNEL and not await is_subscribed(client, message):
         try:
